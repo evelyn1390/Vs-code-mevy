@@ -1,16 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family= Martel :wght@300 & display=swap');
+
 body {
-    background-color: rgb(19, 0, 24);
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(22,22,22);
 }
-h1 { color: blueviolet;
+.logo{
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15,15,15);
+    box-shadow: 0 0 1rem black;
+}
+ul{
+    display: flex;
+    margin: 16px;
+    color: blueviolet;
+    padding-left: 2rem;
 
 }
-h3 { color: blueviolet;
-
+li{
+    color: blueviolet;
+    list-style-type: none;
+    cursor: pointer;
+    justify-content: space-between;
+    padding-inline-start: 4rem;
+    
 }
-h2 {color: blueviolet;
 
+@import url('https://fonts.googleapis.com/css2?family= família= Martel:wght@300;800 & display=swap');
+
+h1 {
+    color: azure;
+    justify-content: flex-start;
+    list-style-type: none;
+    cursor: pointer;
+    padding-block-start: 3rem;
 }
-h4 { color: aqua;
+h2{ color: azure;
+    justify-content: center;
+    list-style-type: none;
+    cursor: pointer;
+    padding-block-start: 2rem;
 
 }
 
