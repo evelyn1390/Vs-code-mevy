@@ -6,21 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria Mevy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
 </head> 
 
 <body>
-    <div class="header" id="header">
-       <div class="logo">
-        <img src="img/logo.jpg" class="imgcafé" alt="logo café">
-       </div>
-       <div class="navegation">
-        <a href="#">Ínicio</a>
-        <a href="#">Cafés</a>
-        <a href="#">Sobre nós</a>
-       </div>
+   
+    <header class="header">
+
+        <span class="header_mevy"></span>
+
+        <element class="menu">
+            <ul>
+              <li><a href="#">Ínicio</a></li>
+              <li><a href="#">cafés</a>
+                <ul>
+                  <li><a href="#">Como funciona?</a></li>
+                  <li><a href="#">Não sei</a></li>
+                </ul>
+              <li><a href="#">Sobre nós</a>
+                <ul>
+                  <li><a href="#">Quem somos</a></li>
+                  <li><a href="#">Vagas</a></li>
+                </ul>
+              </li>
+            </ul>
+        </element>
+        <img src="img/logo.jpg"  class="logo" alt="logotipo da cafeteria">
+    </header>
 
     <h1>Bem-vindo(a) a Cafeteria Mevy!</h1>
-    <img src="img/cafés.jpg" class="coffee" alt="cafés especiais">
+    <img src="img/cafés.jpg" class="coffee" alt="cafés do menu">
     
 </body> 
 

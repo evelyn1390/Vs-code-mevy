@@ -1,4 +1,4 @@
-* { margin: 0%;
+*{ margin: 0%;
     padding: 0%;
 }
 
@@ -9,51 +9,21 @@ body {
 
 }
 
-.imgcafé {
-    width: 143px;
-    height: 44px;
-    background-color: rgba(224, 164, 243, 0.575);
-    border-bottom-style: double;
-    border-radius: 2dvh;
-    margin: 0.7cqmax;
-}
-
-.header, .navegation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: rgb(214, 95, 238);
-}
-
-.header {
-    background-color: rgba(41, 41, 41, 0.26);
-    box-shadow: 1px 1px 4px rgb(138, 31, 170);
-    height: 3.5em;
-    justify-content: space-between;
-    padding: 0 10%;
-}
-
-.navegation{
-    gap: 3em;
-}
-
-.navegation a{
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(218, 149, 224);
-    transition: 1s;
-    font-weight: bold;
-}
-
 h1 {
-    text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 2cm;
-
+    font-style: oblique;
 }
 
 .coffee {
-    margin-left: 5cqmax;
+    margin-left: 3cm;
     width: 50%;
     height: 60;
 }
+
+:root {
+
+    --background-color: #ebecee;
+    --black: #201f1f;
+}
+
